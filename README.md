@@ -1,15 +1,26 @@
-# Sample Snack app
+Created using expo-cli 
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+To try out app on local machine with a simulator or own phone via expo, 
+install expo-cli globally in terminal via:
+```bash
+npm i --global expo-cli
+```
+to install necessary modules:
+```bash
+npm i 
+```
+and to start project locally: 
+```bash
+expo start
+```
 
+Additional information from expo:
 When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
-
+Tools used:
+Expo-cli
+AWS Amplify - S3 Storage, Api(Graphql operations), Auth
+React-Native - components
 
 
 <img src="ezgif-7-d7a381656b6e.gif" width="230" height="500"/>
