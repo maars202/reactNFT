@@ -18,9 +18,10 @@ Additional information from expo:
 When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
 
 Tools used:
-Expo-cli
-AWS Amplify - S3 Storage, Api(Graphql operations), Auth
-React-Native - components
+
+- Expo-cli
+- AWS Amplify - S3 Storage, Api(Graphql operations), Auth
+- React-Native - components
 
 
 <img src="ezgif-7-d7a381656b6e.gif" width="230" height="500"/>
