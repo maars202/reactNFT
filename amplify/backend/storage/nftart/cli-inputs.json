@@ -1,0 +1,14 @@
+{
+  "resourceName": "nftart",
+  "policyUUID": "e2eb893a",
+  "bucketName": "reactnft0c0ea1a253524e7999427c07e89a6e27",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

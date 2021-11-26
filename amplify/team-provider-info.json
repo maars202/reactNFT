@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactnft-staging-105937-authRole",
+      "UnauthRoleArn": "arn:aws:iam::508209671941:role/amplify-reactnft-staging-105937-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::508209671941:role/amplify-reactnft-staging-105937-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-reactnft-staging-105937-deployment",
+      "UnauthRoleName": "amplify-reactnft-staging-105937-unauthRole",
+      "StackName": "amplify-reactnft-staging-105937",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:508209671941:stack/amplify-reactnft-staging-105937/c85a91e0-4dde-11ec-ba2f-02666b4f429e",
+      "AmplifyAppId": "d7pzuhlfba1ud"
+    },
+    "categories": {
+      "auth": {
+        "reactnft51c6c9d1": {}
+      }
+    }
+  }
+}

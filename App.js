@@ -2,6 +2,9 @@ import * as React from 'react';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
 import MapView from 'react-native-maps';
 import Constants from 'expo-constants';
+import { LogBox } from 'react-native';
+LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
+LogBox.ignoreAllLogs();//Ignore all log notifications
 
 // You can import from local files
 // import AssetExample from './screens/AssetExample';
@@ -9,13 +12,13 @@ import Constants from 'expo-constants';
 // or any pure javascript modules available in npm
 import { Card } from 'react-native-paper';
 import { StatusBar, } from 'react-native';
-
 import Router from './navigation/Router';
-// import Amplify from 'aws-amplify'
-// import { withAuthenticator } from 'aws-amplify-react-native'
-// Amplify.configure(config)
+import Amplify from 'aws-amplify'
+import { withAuthenticator } from 'aws-amplify-react-native'
+import config from './src/aws-exports'
+Amplify.configure(config)
 
-export default function App() {
+function App() {
   return (
     // <View style={styles.container}>
     //   <Text style={styles.paragraph}>
@@ -53,3 +56,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
+
+
+export default withAuthenticator(App);

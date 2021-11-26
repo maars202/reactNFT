@@ -12,8 +12,10 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 // import Feather from 'react-native-vector-icons/Feather';
 // import EvilIcons from 'react-native-vector-icons/EvilIcons';
 // import ProfileScreen from "../screens/ProfileScreen";
+import Profile from '../screens/Profile';
 
 import UploadImage from "../screens/UploadImage";
+import PreviewImage from "../screens/PreviewImage";
 // new icons for expo:
 // import Ionicons from 'react-native-vector-icons/Ionicons';
 import { Ionicons } from '@expo/vector-icons';
@@ -28,11 +30,12 @@ const HomeTabNavigator = (props) => {
   return (
     <Tab.Navigator
     screenOptions={{
-    headerShown: false
+    headerShown: false,
+    activeTintColor: '#f15454',
   }}
 
       tabBarOptions={{
-        activeTintColor: '#f15454',
+      
       }}>
       <Tab.Screen
         name={'Explore'}
@@ -51,13 +54,23 @@ const HomeTabNavigator = (props) => {
       />
       <Tab.Screen
         name={'Saved'}
-        component={UploadImage}
+        component={PreviewImage}
         options={{
           tabBarIcon: ({color}) => (
         //     <FontAwesome name="heart-o" size={25} color={color} />
         <MaterialIcons name="favorite-border" size={24} color="black" />
           ),
         
+        }}
+      />
+      <Tab.Screen
+        name={'profile'}
+        component={Profile}
+        options={{
+          tabBarIcon: ({color}) => (
+        //     <EvilIcons name="user" size={25} color={color} />
+        <FontAwesome5 name="user-circle" size={24} color="black" />
+          ),
         }}
       />
       
