@@ -12,4 +12,4 @@ Snack is Open Source. You can find the code on the [GitHub repo](https://github.
 
 
 
-<img src="ezgif-7-d7a381656b6e.gif" width="115" height="250"/>
+<img src="ezgif-7-d7a381656b6e.gif" width="230" height="500"/>
