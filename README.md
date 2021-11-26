@@ -1,5 +1,4 @@
 Try out the app on Expo simulator app by scanning QR code on https://expo.dev/@maarunip.2020/snack-ab2d796b-7c77-4848-ad1c-a747b6324097
-
 OR
 
 To try out app on local machine with a simulator or own phone via expo, 
