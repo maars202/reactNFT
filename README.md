@@ -1,11 +1,9 @@
-Created using expo-cli 
-
 To try out app on local machine with a simulator or own phone via expo, 
 install expo-cli globally in terminal via:
 ```bash
 npm i --global expo-cli
 ```
-to install necessary modules:
+to install necessary dependencies:
 ```bash
 npm i 
 ```
