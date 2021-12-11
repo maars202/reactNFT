@@ -26,4 +26,4 @@ Tools used:
 
 
 <img src="ezgif-7-d7a381656b6e.gif" width="230" height="500"/>
-<img src="ezgif-2-46d34f5c214b.gif" width="890" height="500"/>
+<img src="ezgif-2-46d34f5c214b.gif" width="600" height="400"/>
