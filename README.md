@@ -27,3 +27,5 @@ Tools used:
 
 <img src="ezgif-7-d7a381656b6e.gif" width="230" height="500"/>
 <!-- <img src="ezgif-2-46d34f5c214b.gif" width="600" height="350"/> -->
+
+Design Inspirations from: https://www.figma.com/community/file/996058531450901932
