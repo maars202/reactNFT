@@ -6,7 +6,7 @@ install expo-cli globally in terminal via:
 ```bash
 npm i --global expo-cli
 ```
-to install necessary dependencies:
+Navigate to project directory and run this to install necessary dependencies:
 ```bash
 npm i 
 ```
